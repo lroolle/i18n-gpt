@@ -1,0 +1,209 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-06 14:44+0800\n"
+"PO-Revision-Date: 2015-12-25 18:37+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#: account/forms.py:51
+msgid "invalid format"
+msgstr "非法各式"
+
+#: account/forms.py:54
+msgid "include invalid role"
+msgstr "包含非法"
+
+#: account/forms.py:86 account/forms.py:103
+msgid "Username and password do not match."
+msgstr "用户名与吗密不匹配"
+
+#: account/forms.py:91
+msgid "Invalid Captcha or Timeout, please try again"
+msgstr "无效的验证码或验证码超时，请重试"
+
+#: account/forms.py:92
+msgid "Username"
+msgstr "用户名"
+
+#: account/forms.py:93 account/views.py:365 manager/helps.py:33
+#: templates/account/password.html:5
+msgid "Password"
+msgstr "密码"
+
+#: account/forms.py:99
+#, python-format
+msgid "Username is locked, Please login in after %s seconds"
+msgstr "账户已被锁定，请%s秒后登录"
+
+#: account/forms.py:100
+#, python-format
+msgid "Username and password do not match. You can try %(times)s more times"
+msgstr "用户名与密码不匹配，还可尝试%(times)s次"
+
+#: account/forms.py:101
+#, python-format
+msgid "Username and password do not match, please login after %s seconds"
+msgstr "用户名与密码不匹配，请%s秒后登录"
+
+#: account/forms.py:102
+msgid "Username is locked, Please contact administrator to unlock"
+msgstr "账户已被锁定，请%s秒后登录"
+
+#: account/models.py:143
+msgid "user_active"
+msgstr "活跃"
+
+#: account/models.py:144
+msgid "user_login"
+msgstr "登录"
+
+#: account/models.py:145
+#, fuzzy
+#| msgid "user_login fail"
+msgid "user_login_fail"
+msgstr "登录失败"
+
+#: account/models.py:146
+msgid "user_lock"
+msgstr "用户锁定"
+
+#: account/models.py:147
+msgid "user_logout"
+msgstr "登出"
+
+#: account/models.py:148
+msgid "user_password"
+msgstr "修改密码"
+
+#: account/models.py:149
+msgid "user_edit"
+msgstr "编辑用户"
+
+#: account/models.py:150
+msgid "user_create"
+msgstr "创建用户"
+
+#: account/models.py:151
+msgid "user_remove"
+msgstr "删除用户"
+
+#: account/models.py:152
+msgid "view_create"
+msgstr "创建视图"
+
+#: account/models.py:153
+msgid "view_remove"
+msgstr "删除视图"
+
+#: account/models.py:154
+msgid "view_edit"
+msgstr "编辑视图"
+
+#: account/models.py:155
+msgid "pcap_extract"
+msgstr "导出pcap"
+
+#: account/models.py:156
+msgid "troubleshooting_create"
+msgstr "创建故障诊断"
+
+#: account/models.py:157
+msgid "troubleshooting_edit"
+msgstr "编辑故障诊断"
+
+#: account/models.py:158
+msgid "troubleshooting_remove"
+msgstr "删除故障诊断"
+
+#: account/models.py:159
+msgid "troubleshooting_run"
+msgstr "运行故障诊断"
+
+#: account/models.py:160
+msgid "troubleshooting_report_create"
+msgstr "创建故障诊断报告"
+
+#: account/models.py:161
+msgid "troubleshooting_report_remove"
+msgstr "删除故障诊断报告"
+
+#: account/models.py:162
+msgid "troubleshooting_pcap_extract"
+msgstr "导出故障诊断数据包"
+
+#: account/models.py:163
+msgid "slice_toggled"
+msgstr "裁切配置更改"
+
+#: account/models.py:230
+msgid "opened"
+msgstr "已开启"
+
+#: account/models.py:230
+msgid "closed"
+msgstr "已关闭"
+
+#: account/models.py:368 account/models.py:414
+msgid "login username"
+msgstr "登录用户名"
+
+#: account/models.py:369
+msgid "login lock time"
+msgstr "登录锁定时间"
+
+#: account/models.py:370
+msgid "cleared failed times"
+msgstr "登陆失败次数"
+
+#: account/models.py:415
+msgid "login failed times"
+msgstr "登陆失败次数"
+
+#: account/models.py:444
+msgid "info"
+msgstr "信息"
+
+#: account/models.py:445
+msgid "permission name"
+msgstr "权限名"
+
+#: account/models.py:465
+msgid "value"
+msgstr "值"
+
+#: account/serializers.py:134
+#, python-format
+msgid "Invalid Length (%s)"
+msgstr "无效的长度 (%s)"
+
+#: account/serializers.py:139
+#, python-format
+msgid "Must be %s characters or more"
+msgstr "必须至少为 %s 字符"
+
+#: account/serializers.py:141
+#, python-format
+msgid "Must be %s characters or less"
+msgstr "至多 %s 字符"
+
+#: account/serializers.py:154
+#, python-format
+msgid "Must be more complex (%s)"
+msgstr "必须更复杂 (%s)"
+
+#: account/serializers.py:190
+#, python-format
+msgid "%(upper)s or more uppercase characters"
+msgstr "至少%(upper)s个大写字母"

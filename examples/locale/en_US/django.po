@@ -1,0 +1,546 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-03 17:21+0800\n"
+"PO-Revision-Date: 2015-12-25 18:21+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#: account/forms.py:51
+msgid "invalid format"
+msgstr "invalid format"
+
+#: account/forms.py:54
+msgid "include invalid role"
+msgstr "include invalid role"
+
+#: account/forms.py:86 account/forms.py:103
+msgid "Username and password do not match."
+msgstr "Username and passsword do not match."
+
+#: account/forms.py:91
+msgid "Invalid Captcha or Timeout, please try again"
+msgstr "Invalid Captcha or Timeout, please try again"
+
+#: cubes/functions.py:36
+#, python-format
+msgid "\"%s\" is not series_list"
+msgstr "\"%s\" is not series_list"
+
+#: account/forms.py:92
+msgid "Username"
+msgstr "Username"
+
+#: account/forms.py:93 account/views.py:365 manager/helps.py:33
+#: templates/account/password.html:5
+msgid "Password"
+msgstr "Password"
+
+#: account/forms.py:99
+#, python-format
+msgid "Username is locked, Please login in after %s seconds"
+msgstr "Username is locked, Please login in after %s seconds"
+
+#: account/forms.py:100
+#, python-format
+msgid "Username and password do not match. You can try %(times)s more times"
+msgstr "Username and password do not match. You can try %(times)s more times"
+
+#: account/forms.py:101
+#, python-format
+msgid "Username and password do not match, please login after %s seconds"
+msgstr "Username and password do not match, please login after %s seconds"
+
+#: account/forms.py:102
+msgid "Username is locked, Please contact administrator to unlock"
+msgstr "Username is locked, Please login in after %s seconds"
+
+#: account/models.py:143
+msgid "user_active"
+msgstr "active"
+
+#: cubes/adapters/indicators.py:346 datastat/indicators.py:193
+msgid ">=1518"
+msgstr ""
+
+#: cubes/adapters/indicators.py:350 datastat/indicators.py:194
+msgid "1024-1517"
+msgstr ""
+
+#: cubes/adapters/indicators.py:354 datastat/indicators.py:195
+msgid "512-1023"
+msgstr ""
+
+#: cubes/adapters/indicators.py:358 datastat/indicators.py:196
+msgid "256-511"
+msgstr ""
+
+#: cubes/adapters/indicators.py:362 datastat/indicators.py:197
+msgid "128-255"
+msgstr ""
+
+#: cubes/adapters/indicators.py:366 datastat/indicators.py:198
+msgid "65-127"
+msgstr ""
+
+#: account/models.py:144
+msgid "user_login"
+msgstr "Login"
+
+#: account/models.py:145
+#, fuzzy
+#| msgid "user_login fail"
+msgid "user_login_fail"
+msgstr "User failed to login"
+
+#: account/models.py:146
+msgid "user_lock"
+msgstr "user_lock"
+
+#: account/models.py:147
+msgid "user_logout"
+msgstr "Logout"
+
+#: account/models.py:148
+msgid "user_password"
+msgstr "Change Password"
+
+#: account/models.py:149
+msgid "user_edit"
+msgstr "Edit User"
+
+#: account/models.py:150
+msgid "user_create"
+msgstr "Create User"
+
+#: account/models.py:151
+msgid "user_remove"
+msgstr "Remove User"
+
+#: account/models.py:152
+msgid "view_create"
+msgstr "Create View"
+
+#: account/models.py:153
+msgid "view_remove"
+msgstr "Remove View"
+
+#: account/models.py:154
+msgid "view_edit"
+msgstr "Edit View"
+
+#: account/models.py:155
+msgid "pcap_extract"
+msgstr "Extract Pcap"
+
+#: account/models.py:156
+msgid "troubleshooting_create"
+msgstr "Create Troubleshooting"
+
+#: account/models.py:157
+msgid "troubleshooting_edit"
+msgstr "Edit Troubleshooting"
+
+#: account/models.py:158
+msgid "troubleshooting_remove"
+msgstr "Remove Troubleshooting"
+
+#: account/models.py:159
+msgid "troubleshooting_run"
+msgstr "Run Troubleshooting"
+
+#: account/models.py:160
+msgid "troubleshooting_report_create"
+msgstr "Create TroubleShooting Report"
+
+#: account/models.py:161
+msgid "troubleshooting_report_remove"
+msgstr "Remove TroubleShooting Report"
+
+#: account/models.py:162
+msgid "troubleshooting_pcap_extract"
+msgstr "Extract Troubleshooting Pcap"
+
+#: account/models.py:163
+msgid "slice_toggled"
+msgstr "Slice toggled"
+
+#: account/models.py:230
+msgid "opened"
+msgstr "opened"
+
+#: account/models.py:230
+msgid "closed"
+msgstr "closed"
+
+#: account/models.py:368 account/models.py:414
+msgid "login username"
+msgstr "login username"
+
+#: account/models.py:369
+msgid "login lock time"
+msgstr "login lock time"
+
+#: account/models.py:370
+msgid "cleared failed times"
+msgstr "login failed times"
+
+#: account/models.py:415
+msgid "login failed times"
+msgstr "login failed times"
+
+#: account/models.py:444
+msgid "info"
+msgstr "info"
+
+#: account/models.py:445
+msgid "permission name"
+msgstr "permission name"
+
+#: account/models.py:465
+msgid "value"
+msgstr "value"
+
+#: account/serializers.py:134
+#, python-format
+msgid "Invalid Length (%s)"
+msgstr "Invalid Length (%s)"
+
+#: account/serializers.py:139
+#, python-format
+msgid "Must be %s characters or more"
+msgstr "Must be %s characters or more"
+
+#: account/serializers.py:141
+#, python-format
+msgid "Must be %s characters or less"
+msgstr "Must be %s characters or less"
+
+#: account/serializers.py:154
+#, python-format
+msgid "Must be more complex (%s)"
+msgstr "Must be more complex (%s)"
+
+#: account/serializers.py:190
+#, python-format
+msgid "%(upper)s or more uppercase characters"
+msgstr "%(upper)s or more uppercase characters"
+
+#: account/serializers.py:194
+#, python-format
+msgid "%(lower)s or more lowercase characters"
+msgstr "%(lower)s or more lowercase characters"
+
+#: account/serializers.py:198
+#, python-format
+msgid "%(digit)s or more digits"
+msgstr "%(digit)s or more digits"
+
+#: account/serializers.py:202
+#, python-format
+msgid "%(special)s or more special characters"
+msgstr "%(special)s or more special characters"
+
+#: account/serializers.py:206
+msgid "must contain "
+msgstr "must contain "
+
+#: account/serializers.py:209
+msgid "cannot contain two or more consecutive letters or numbers"
+msgstr "cannot contain two or more consecutive or same letters or numbers"
+
+#: account/serializers.py:212
+#, python-format
+msgid "password length must greater than %s"
+msgstr ""
+
+#: account/serializers.py:215
+msgid "密码不能和账户相同或账户的逆序相同"
+msgstr "password must not be the same as name or reverse name"
+
+#: account/serializers.py:223
+msgid "密码不能和历史记录相同"
+msgstr "password must not be the same as histroy"
+
+#: account/serializers.py:249
+msgid "Invalid format"
+msgstr "Invalid format"
+
+#: account/serializers.py:251
+msgid "Include invalid role"
+msgstr "Include invalid role"
+
+#: account/serializers.py:255 account/serializers.py:316
+msgid "The two password fields didn't match."
+msgstr "The two password fields didn't match."
+
+#: account/serializers.py:277
+msgid "Role name is empty"
+msgstr "Role name is empty"
+
+#: account/serializers.py:279
+msgid ""
+"Enter a valid rolename. This value may contain only English letters,numbers,"
+" and @/./+/-/_ characters."
+msgstr ""
+"Enter a valid rolename. This value may contain only English letters,numbers,"
+" and @/./+/-/_ characters."
+
+#: account/serializers.py:281 account/serializers.py:302
+msgid "Role name conflict"
+msgstr "Role name conflict"
+
+#: account/serializers.py:283 account/serializers.py:304
+msgid "Include invalid privileges"
+msgstr "Include invalid privileges"
+
+#: account/views.py:97
+msgid "user_login fail"
+msgstr "User failed to login"
+
+#: account/views.py:185 account/views.py:315 discovery/views.py:1143
+#: report/views.py:273 search/views.py:36
+msgid "Params error"
+msgstr "Params error"
+
+#: account/views.py:191
+msgid "Admin user can not be deleted"
+msgstr "Admin user can not be deleted"
+
+#: account/views.py:194
+msgid "User does not exist"
+msgstr "User does not exist"
+
+#: account/views.py:221
+msgid "Superuser is not editable"
+msgstr "Superuser is not editable"
+
+#: account/views.py:261 templates/account/users.html:5
+msgid "User management"
+msgstr "User management"
+
+#: account/views.py:285 templates/account/roles.html:5
+msgid "Role management"
+msgstr "Role management"
+
+#: account/views.py:375 templates/403.html:8
+msgid "你没有权限执行该操作，请联系管理员。"
+msgstr ""
+"You are not authorized to perform, please contact the system administrator."
+
+#: account/views.py:429 manager/helps.py:34 templates/account/user_log.html:5
+#: widgets/sidebar.py:369
+msgid "User Log"
+msgstr "User Log"
+
+#: account/views.py:445 manager/helps.py:35
+#: templates/account/login_history.html:5 widgets/sidebar.py:375
+msgid "Login History"
+msgstr "Login History"
+
+#: account_settings.py:9
+msgid "查看用户"
+msgstr "View Users"
+
+#: account_settings.py:10
+msgid "管理用户"
+msgstr "Manage Users"
+
+#: account_settings.py:12
+msgid "查看角色"
+msgstr "View Roles"
+
+#: account_settings.py:13
+msgid "管理角色"
+msgstr "Manage Roles"
+
+#: account_settings.py:15
+msgid "查看仪表台"
+msgstr "Brows Dashboards"
+
+#: account_settings.py:16
+msgid "管理仪表台"
+msgstr "Manage Dashboards"
+
+#: account_settings.py:18
+msgid "查看视图"
+msgstr "Browse Views"
+
+#: account_settings.py:19
+msgid "管理视图"
+msgstr "Manage Views"
+
+#: account_settings.py:21 account_settings.py:101
+msgid "查看视图对象"
+msgstr "Browse View Objects"
+
+#: account_settings.py:22 account_settings.py:102
+msgid "管理视图对象"
+msgstr "Manage View Objects"
+
+#: account_settings.py:23 account_settings.py:103
+msgid "管理视图对象权限"
+msgstr "Grant View Objects"
+
+#: account_settings.py:25
+msgid "查看告警记录"
+msgstr "View Alerts"
+
+#: account_settings.py:26
+msgid "管理告警配置"
+msgstr "Manage Alert Configurations"
+
+#: account_settings.py:28
+msgid "查看定期报告"
+msgstr "View Scheduled Reports"
+
+#: account_settings.py:29
+msgid "管理定期报告"
+msgstr "Manage Scheduled Reports"
+
+#: account_settings.py:31
+msgid "查看基线"
+msgstr "View Baseline"
+
+#: account_settings.py:32
+msgid "管理基线"
+msgstr "Manage Baseline"
+
+#: account_settings.py:34
+msgid "查看分析"
+msgstr ""
+
+#: account_settings.py:35
+msgid "编辑分析"
+msgstr ""
+
+#: account_settings.py:37
+msgid "查看提取"
+msgstr ""
+
+#: account_settings.py:38
+msgid "申请提取"
+msgstr ""
+
+#: account_settings.py:39
+msgid "审批提取"
+msgstr ""
+
+#: account_settings.py:41
+msgid "查看故障诊断报告"
+msgstr "View Diagnostic repots"
+
+#: account_settings.py:42
+msgid "编辑故障诊断报告"
+msgstr "Edit Diagnostic repots"
+
+#: account_settings.py:43
+msgid "导出故障诊断项目"
+msgstr "Export Troubleshooting Items"
+
+#: account_settings.py:45
+msgid "执行故障诊断"
+msgstr "Perform Troubleshooting"
+
+#: account_settings.py:46
+msgid "查看故障诊断项目"
+msgstr "View Troubleshooting Items"
+
+#: account_settings.py:47
+msgid "管理故障诊断项目"
+msgstr "Manage Troubleshooting Items"
+
+#: account_settings.py:49
+msgid "查看站点"
+msgstr "View Sites"
+
+#: account_settings.py:50
+msgid "管理站点"
+msgstr "Manage Sites"
+
+#: account_settings.py:52
+msgid "管理流量方向"
+msgstr "Manage Flow Directions"
+
+#: account_settings.py:53
+msgid "查看流量方向"
+msgstr "View Flow Directions"
+
+#: account_settings.py:55
+msgid "管理监控组"
+msgstr "Manager Monitor Group"
+
+#: account_settings.py:56
+msgid "查看监控组"
+msgstr "View Monitor Group"
+
+#: account_settings.py:58
+msgid "查看应用"
+msgstr "View Applications"
+
+#: cubes/adapters/factory.py:28
+msgid "Missing \"type\" in source"
+msgstr "Missing \"type\" in source"
+
+#: account_settings.py:59
+msgid "管理应用"
+msgstr "Manage Applications"
+
+#: account_settings.py:61
+msgid "查看SPVD项目"
+msgstr "View SPVD Porjects"
+
+#: account_settings.py:62
+msgid "管理SPVD项目"
+msgstr "Manage SPVD Projects"
+
+#: account_settings.py:64
+msgid "查看违规服务"
+msgstr ""
+
+#: account_settings.py:65
+msgid "管理违规服务"
+msgstr ""
+
+#: account_settings.py:67
+msgid "查看内外网"
+msgstr ""
+
+#: account_settings.py:68
+msgid "管理内外网"
+msgstr ""
+
+#: account_settings.py:70 account_settings.py:105
+msgid "查看SPVD项目对象"
+msgstr "View SPVD Porject Objects"
+
+#: account_settings.py:71 account_settings.py:106
+msgid "管理SPVD项目对象"
+msgstr "Manage SPVD Project Objects"
+
+#: account_settings.py:72 account_settings.py:107
+msgid "管理SPVD项目对象权限"
+msgstr "Grant SPVD Project Objects"
+
+#: account_settings.py:74
+msgid "管理Smart Probe"
+msgstr "Manage Smart Probe"
+
+#: account_settings.py:76
+msgid "查看Data Server"
+msgstr "Check Data Server"
+
+#: account_settings.py:77
+msgid "管理Data Server"
+msgstr "Manage Data Server"

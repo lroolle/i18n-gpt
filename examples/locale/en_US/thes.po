@@ -1,0 +1,327 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-03 17:21+0800\n"
+"PO-Revision-Date: 2015-12-25 18:21+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+
+msgid "饼图"
+msgstr "Pie"
+
+msgid "条形图"
+msgstr "Bar"
+
+msgid "堆叠条形图"
+msgstr "StackedBar"
+
+msgid "曲线图"
+msgstr "Line"
+
+msgid "柱形图"
+msgstr "Column"
+
+msgid "堆叠柱形图"
+msgstr "StackedColumn"
+
+msgid "非法的图表类型"
+msgstr "Invalid Chart Type"
+
+msgid "非法的图表名称"
+msgstr "Invalid chart name"
+
+msgid "非法的指标名称"
+msgstr "Invalid metric"
+
+msgid "峰值方向只支持in/out"
+msgstr "Max Direction only support in/out"
+
+msgid "峰值不支持同时选择both和其他方向"
+msgstr "Max report not support both and other directions"
+
+msgid "请输入标题"
+msgstr "enter the title"
+
+msgid "必须为数字"
+msgstr "must be number"
+
+msgid "基础颗粒度"
+msgstr "Base Granularity"
+
+msgid "对比操作"
+msgstr "Compare"
+
+msgid "小于"
+msgstr "lt"
+
+msgid "小于等于"
+msgstr "le"
+
+msgid "大于"
+msgstr "gt"
+
+msgid "大于等于"
+msgstr "ge"
+
+msgid "比较方法"
+msgstr "compare"
+
+msgid "同比"
+msgstr "PeriodOverPeriod"
+
+msgid "环比"
+msgstr "PeriodOnPeriod"
+
+msgid "比较周期"
+msgstr "Period"
+
+msgid "单独设置业务时间(默认与报表设置一致)"
+msgstr "set business time(default is same as global setting)"
+
+msgid "业务时间"
+msgstr "Business Time"
+
+msgid "一"
+msgstr "mon"
+
+msgid "二"
+msgstr "thes"
+
+msgid "三"
+msgstr "wed"
+
+msgid "四"
+msgstr "thur"
+
+msgid "五"
+msgstr "fri"
+
+msgid "六"
+msgstr "sat"
+
+msgid "日"
+msgstr "sun"
+
+msgid "至"
+msgstr "to"
+
+msgid "开始时间"
+msgstr "Start Time"
+
+msgid "周"
+msgstr "week"
+
+msgid "年"
+msgstr "year"
+
+msgid "非法的比较周期"
+msgstr "Invalid compare Period"
+
+msgid "10分钟"
+msgstr "10m"
+
+msgid "1小时"
+msgstr "1h"
+
+msgid "1天"
+msgstr "1d"
+
+msgid "服务路径图"
+msgstr "SPV"
+
+msgid "请输入"
+msgstr "Please input"
+
+msgid "App不能为空"
+msgstr "App can not be empty."
+
+msgid "Site Subsite 不能同时存在"
+msgstr "Can not filter site subsite together"
+
+msgid "IP格式不正确"
+msgstr "Invalid IP format"
+
+msgid "导出文件"
+msgstr "Export file"
+
+msgid "配置"
+msgstr "Config"
+
+msgid "输入文件名"
+msgstr "input file name"
+
+msgid "报表标题"
+msgstr "Report Title"
+
+msgid "报表描述"
+msgstr "Report description"
+
+# <i18n-gpt>: suggestion by gpt-4.
+msgid "在这里输入一些描述"
+msgstr "Enter some description here"
+
+# <i18n-gpt>: suggestion by gpt-4.
+msgid "作者"
+msgstr "Author"
+
+# <i18n-gpt>: suggestion by gpt-4.
+msgid "输入作者"
+msgstr "Enter the author"
+
+msgid "电子邮件"
+msgstr "Email Address"
+
+# <i18n-gpt>: suggestion by gpt-4.
+msgid "请输入邮件"
+msgstr "Please input email address"
+
+msgid "Report Link"
+msgstr "Report Link"
+
+msgid "Report Attachment"
+msgstr "Report Attachment"
+
+msgid "报表运行时间设置"
+msgstr "Time"
+
+msgid "重复"
+msgstr "Repeat"
+
+# <i18n-gpt>: suggestion by gpt-4.
+msgid "每日"
+msgstr "Daily"
+
+# <i18n-gpt>: suggestion by gpt-4.
+msgid "每周"
+msgstr "Weekly"
+
+# <i18n-gpt>: suggestion by gpt-4.
+msgid "每月"
+msgstr "Monthly"
+
+msgid "在"
+msgstr "At"
+
+msgid "第"
+msgstr "At"
+
+# <i18n-gpt>: suggestion by gpt-4.
+msgid "天"
+msgstr "Day"
+
+msgid "选择时间"
+msgstr "Select Time"
+
+msgid "业务时间设置"
+msgstr "Business Time"
+
+msgid "数据日"
+msgstr "Weekday"
+
+msgid "数据时间"
+msgstr "Data Time"
+
+msgid "请输入描述"
+msgstr "Please input description"
+
+msgid "请输入作者"
+msgstr "Please input author"
+
+msgid "时间"
+msgstr "Time"
+
+msgid "内容摘要"
+msgstr "Summary"
+
+msgid "保存格式"
+msgstr "Format"
+
+msgid "DOCX(WORD)"
+msgstr "DOCX(WORD)"
+
+msgid "PDF"
+msgstr "PDF"
+
+msgid "图表"
+msgstr "Chart"
+
+# <i18n-gpt>: suggestion by gpt-4.
+msgid "general"
+msgstr "General"
+
+# <i18n-gpt>: suggestion by gpt-4.
+msgid "cumtime"
+msgstr "Cumtime"
+
+# <i18n-gpt>: suggestion by gpt-4.
+msgid "compare"
+msgstr "Compare"
+
+msgid "离开"
+msgstr "Close"
+
+msgid "输出报表"
+msgstr "Save"
+
+msgid "测试数据"
+msgstr "Test Data"
+
+msgid "Default Compare"
+msgstr "Default Compare"
+
+msgid "Default Peak"
+msgstr "Default Peak"
+
+msgid "Default Cumtime"
+msgstr "Default Cumtime"
+
+msgid "即时报表"
+msgstr "Snapshot"
+
+msgid "周期报表"
+msgstr "Report"
+
+msgid "生成时间"
+msgstr "Report Time"
+
+# <i18n-gpt>: suggestion by gpt-4.
+msgid "Restart npmweb"
+msgstr "Restart npmweb service?"
+
+msgid "Do you want to restart npmweb service?"
+msgstr "Do you want to restart npmweb service?"
+
+msgid "合规站点地址"
+msgstr "Compliant Site Address"
+
+# <i18n-gpt>: suggestion by gpt-4.
+msgid "ip地址"
+msgstr "IP address"
+
+msgid "合规站点端口"
+msgstr "Compliant Site Port"
+
+msgid "端口可输入多个，以逗号分隔"
+msgstr "Multiple ports can be entered, separated by commas"
+
+msgid "服务描述"
+msgstr "Service Description"
+
+msgid "监控范围"
+msgstr "Monitoring Range"
+
+msgid "监控IP"
+msgstr "Monitoring IP"
+
+msgid "监控端口范围"
+msgstr "Monitoring Port Range"
+
+msgid "监控范围内的合规服务列表"
+msgstr "List of compliant services within the scope of monitoring"

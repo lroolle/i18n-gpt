@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "i18n-gpt"
+version = "0.1.0"
+description = "i18n gpt"
+readme = "README.md"
+packages = [{ include = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tiktoken = "^0.4.0"
+polib = "^1.2.0"
+openai = "^0.27.8"
+langchain = "^0.0.221"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.14.0"
+pytest = "^7.4.0"
+isort = "^5.12.0"
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+autofix = "src.main:main"
+
+[tool.isort]
+profile = "black"
+line_length = 100     # Keep same with black.line-length
+multi_line_output = 3
+
+[tool.black]
+line-length = 100 # Too short with default=80
+target-version = ["py311"]
+skip-magic-trailing-comma = true
+include = '\.pyi?$'
+force-exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.pytest_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | migrations
+  | fixture
+  | fixtures
+)/
+'''
